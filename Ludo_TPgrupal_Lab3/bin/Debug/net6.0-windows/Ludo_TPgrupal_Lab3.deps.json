@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Ludo_TPgrupal_Lab3/1.0.0": {
+        "runtime": {
+          "Ludo_TPgrupal_Lab3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ludo_TPgrupal_Lab3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
