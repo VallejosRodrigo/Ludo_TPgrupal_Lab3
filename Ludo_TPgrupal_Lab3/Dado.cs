@@ -8,6 +8,7 @@ namespace Ludo_TPgrupal_Lab3
 {
     internal class Dado
     {
+       
         public static int lanzarDado()
         {
             Random rand = new Random();
