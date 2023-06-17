@@ -47,8 +47,11 @@
             FichaAmarilla3 = new PictureBox();
             fichaAmarilla4 = new PictureBox();
             button1 = new Button();
+<<<<<<< HEAD
             textoTurno = new Label();
             turno = new Label();
+=======
+>>>>>>> 9eec9a7961a5929001e808f52eb9a8c1c4ebe21d
             tableroLudo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)imagenDado).BeginInit();
             ((System.ComponentModel.ISupportInitialize)fichaRoja1).BeginInit();
@@ -91,7 +94,6 @@
             tableroLudo.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 6.664177F));
             tableroLudo.Controls.Add(imagenDado, 7, 7);
             tableroLudo.Controls.Add(fichaRoja1, 2, 1);
-            tableroLudo.Controls.Add(fichaRoja2, 4, 1);
             tableroLudo.Controls.Add(fichaRoja3, 2, 3);
             tableroLudo.Controls.Add(fichaRoja4, 4, 3);
             tableroLudo.Controls.Add(fichaVerde1, 11, 1);
@@ -106,6 +108,7 @@
             tableroLudo.Controls.Add(fichaAmarilla2, 13, 10);
             tableroLudo.Controls.Add(FichaAmarilla3, 11, 12);
             tableroLudo.Controls.Add(fichaAmarilla4, 13, 12);
+            tableroLudo.Controls.Add(fichaRoja2, 4, 1);
             tableroLudo.Location = new Point(2, 1);
             tableroLudo.Name = "tableroLudo";
             tableroLudo.RowCount = 15;
@@ -314,6 +317,7 @@
             button1.Text = "LANZAR DADO";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
+<<<<<<< HEAD
             button1.MouseDown += button1_MouseDown;
             // 
             // textoTurno
@@ -337,6 +341,8 @@
             turno.Size = new Size(76, 56);
             turno.TabIndex = 3;
             turno.Text = "- -";
+=======
+>>>>>>> 9eec9a7961a5929001e808f52eb9a8c1c4ebe21d
             // 
             // Form1
             // 
