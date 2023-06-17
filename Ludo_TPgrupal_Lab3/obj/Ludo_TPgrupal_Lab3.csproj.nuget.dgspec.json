@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\source\\repos\\Ludo_TPgrupal_Lab3\\Ludo_TPgrupal_Lab3\\Ludo_TPgrupal_Lab3.csproj": {}
+    "C:\\Users\\Bangho\\Source\\Repos\\Ludo_TPgrupal_Lab3\\Ludo_TPgrupal_Lab3\\Ludo_TPgrupal_Lab3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\source\\repos\\Ludo_TPgrupal_Lab3\\Ludo_TPgrupal_Lab3\\Ludo_TPgrupal_Lab3.csproj": {
+    "C:\\Users\\Bangho\\Source\\Repos\\Ludo_TPgrupal_Lab3\\Ludo_TPgrupal_Lab3\\Ludo_TPgrupal_Lab3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\Ludo_TPgrupal_Lab3\\Ludo_TPgrupal_Lab3\\Ludo_TPgrupal_Lab3.csproj",
+        "projectUniqueName": "C:\\Users\\Bangho\\Source\\Repos\\Ludo_TPgrupal_Lab3\\Ludo_TPgrupal_Lab3\\Ludo_TPgrupal_Lab3.csproj",
         "projectName": "Ludo_TPgrupal_Lab3",
-        "projectPath": "C:\\Users\\Usuario\\source\\repos\\Ludo_TPgrupal_Lab3\\Ludo_TPgrupal_Lab3\\Ludo_TPgrupal_Lab3.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\source\\repos\\Ludo_TPgrupal_Lab3\\Ludo_TPgrupal_Lab3\\obj\\",
+        "projectPath": "C:\\Users\\Bangho\\Source\\Repos\\Ludo_TPgrupal_Lab3\\Ludo_TPgrupal_Lab3\\Ludo_TPgrupal_Lab3.csproj",
+        "packagesPath": "C:\\Users\\Bangho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bangho\\Source\\Repos\\Ludo_TPgrupal_Lab3\\Ludo_TPgrupal_Lab3\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bangho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +62,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

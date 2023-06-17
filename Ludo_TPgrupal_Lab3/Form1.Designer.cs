@@ -30,7 +30,6 @@
         {
             tableroLudo = new TableLayoutPanel();
             imagenDado = new PictureBox();
-            button1 = new Button();
             fichaRoja1 = new PictureBox();
             fichaRoja2 = new PictureBox();
             fichaRoja3 = new PictureBox();
@@ -47,6 +46,7 @@
             fichaAmarilla2 = new PictureBox();
             FichaAmarilla3 = new PictureBox();
             fichaAmarilla4 = new PictureBox();
+            button1 = new Button();
             tableroLudo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)imagenDado).BeginInit();
             ((System.ComponentModel.ISupportInitialize)fichaRoja1).BeginInit();
@@ -89,7 +89,6 @@
             tableroLudo.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 6.664177F));
             tableroLudo.Controls.Add(imagenDado, 7, 7);
             tableroLudo.Controls.Add(fichaRoja1, 2, 1);
-            tableroLudo.Controls.Add(fichaRoja2, 4, 1);
             tableroLudo.Controls.Add(fichaRoja3, 2, 3);
             tableroLudo.Controls.Add(fichaRoja4, 4, 3);
             tableroLudo.Controls.Add(fichaVerde1, 11, 1);
@@ -104,6 +103,7 @@
             tableroLudo.Controls.Add(fichaAmarilla2, 13, 10);
             tableroLudo.Controls.Add(FichaAmarilla3, 11, 12);
             tableroLudo.Controls.Add(fichaAmarilla4, 13, 12);
+            tableroLudo.Controls.Add(fichaRoja2, 4, 1);
             tableroLudo.Location = new Point(2, 1);
             tableroLudo.Name = "tableroLudo";
             tableroLudo.RowCount = 15;
@@ -137,20 +137,6 @@
             imagenDado.TabIndex = 0;
             imagenDado.TabStop = false;
             imagenDado.Click += imagenDado_Click;
-            // 
-            // button1
-            // 
-            button1.BackColor = Color.Black;
-            button1.BackgroundImageLayout = ImageLayout.Zoom;
-            button1.Font = new Font("Chiller", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            button1.ForeColor = Color.Lime;
-            button1.Location = new Point(634, 245);
-            button1.Name = "button1";
-            button1.Size = new Size(154, 123);
-            button1.TabIndex = 1;
-            button1.Text = "LANZAR DADO";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
             // 
             // fichaRoja1
             // 
@@ -312,6 +298,20 @@
             fichaAmarilla4.SizeMode = PictureBoxSizeMode.StretchImage;
             fichaAmarilla4.TabIndex = 18;
             fichaAmarilla4.TabStop = false;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.Black;
+            button1.BackgroundImageLayout = ImageLayout.Zoom;
+            button1.Font = new Font("Chiller", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.ForeColor = Color.Lime;
+            button1.Location = new Point(634, 245);
+            button1.Name = "button1";
+            button1.Size = new Size(154, 123);
+            button1.TabIndex = 1;
+            button1.Text = "LANZAR DADO";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // Form1
             // 
